@@ -1,0 +1,15 @@
+{
+    "name": "brtriver/simple-crud-bundle",
+    "description": "Simple CRUD trait controller class for Symfony2",
+    "keywords": ["Symfony2", "CRUD"],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Masao Maeda",
+            "email": "brt.river@gmail.com"
+        }
+    ]
+}

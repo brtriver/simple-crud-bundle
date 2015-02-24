@@ -1,0 +1,3 @@
+_simple_crud_bundle_sample:
+    resource: "@BrtriverSimpleCrudBundle/Controller"
+    type:     annotation

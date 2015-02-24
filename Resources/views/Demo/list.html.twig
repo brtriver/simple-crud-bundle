@@ -1,0 +1,14 @@
+<h1>list action demo page</h1>
+
+<p>this page is provided by SimpleCrudBundle</p>
+
+{# route name is "your class route" + "_" + "action method name(new, edit, list, show)"#}
+<a href="{{ path('brtriver_simplecrud_demo_new') }}">new</a> |
+<a href="{{ path('brtriver_simplecrud_demo_show', {'id': 1}) }}">show</a> |
+<a href="{{ path('brtriver_simplecrud_demo_edit', {'id': 1}) }}">edit</a> |
+
+<ul>
+    {% for e in entities %}
+    <li>write your code</li>
+    {% endfor %}
+</ul>
