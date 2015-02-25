@@ -58,7 +58,12 @@ SimpleCrudBundle works with PHP 5.4.0 or later.
 Install
 --------
 
-now on work
+install via packagist
+https://packagist.org/packages/brtriver/simple-crud-bundle
+
+```
+$ php composer.phar require brtriver/simple-crud-bundle:dev-master
+```
 
 Add this bundle to your `app/AppKernel.php`:
 
