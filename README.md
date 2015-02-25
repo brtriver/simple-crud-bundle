@@ -45,8 +45,8 @@ class DemoController extends Controller
     ...
 ```
 
-This actions is just templates, so you have to write your logic in your own templates and use `@Crud` annotations.
-If you want to overwrite crud actions, you just write your `listAction`, `showAction`, `newAction` or `editAction` method.
+These actions of trait are just templates, so you have to write your logic in your own templates and use `@Crud` annotations.
+If you want to overwrite CRUD actions, you just write your `listAction`, `showAction`, `newAction` or `editAction` method.
 
 You can see a demo controller code in `Brtriver\SimpleCrudBundle\Controller\DemoController` class.
 
