@@ -12,4 +12,7 @@
             "email": "brt.river@gmail.com"
         }
     ]
+    "autoload": {
+        "psr-0": { "Brtriver\\SimpleCrudBundle": "" }
+    }
 }
